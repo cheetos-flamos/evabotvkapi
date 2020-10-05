@@ -11,10 +11,10 @@ from work_with_database import insert_information_to_database
 import sqlite3
 import datetime
 
-vk_session = vk_api.VkApi(token='4a2151457df20731fd1f0b6cf14d491fd5908e7c428df4ee2c'
-                                '1bf7e74d7454fddef80690b946d5ef6e035')
+vk_session = vk_api.VkApi(token='xxx'
+                                'xxx')
 vk = vk_session.get_api()
-longpoll = VkBotLongPoll(vk_session, '196559740')
+longpoll = VkBotLongPoll(vk_session, 'xxx')
 
 sphere = ["возможно", 'лол, нет', 'ахах, даже не надейся, лошара', 'конечно, бро', '100 проц', 'хз']
 owner_id = 318741811
